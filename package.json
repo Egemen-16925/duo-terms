@@ -1,0 +1,29 @@
+{
+  "name": "duo-terms",
+  "version": "1.0.0",
+  "description": "Shared term key, lemma and matcher logic for DuoPDF and Firelingo.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "wink-lemmatizer": "^3.0.4"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.4"
+  }
+}
