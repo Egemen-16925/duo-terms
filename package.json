@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "duo-terms",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shared term key, lemma and matcher logic for DuoPDF and Firelingo.",
   "license": "MIT",
   "type": "module",
